@@ -29,8 +29,8 @@ This is the source code of the developed Cloud Nonce Discovery System that uses 
   $ python3 cloudCompute.py    
   Enter the number of option: 1 Direct | 2 Indirect: 1    
   Enter number of instances: 10    
-  Enter number of leading zeros bits: 24    E
-  nter time limit in seconds: 1200    
+  Enter number of leading zeros bits: 24    
+  Enter time limit in seconds: 1200    
   ########## CND Started ##########    
   Launching 10 instances...    
   Difficulty level is set to 24 leading zero bits    
