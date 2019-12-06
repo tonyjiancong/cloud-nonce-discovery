@@ -7,6 +7,8 @@ import threading
 import signal
 import logging
 
+tag = "comsm0010_CW"
+
 ec2 = boto3.client('ec2', region_name='us-east-1')
 
 # command line inputs
