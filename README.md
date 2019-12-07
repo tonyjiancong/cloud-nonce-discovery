@@ -20,7 +20,7 @@ This is the source code of the developed Cloud Nonce Discovery System that uses 
   ```shell    
   SecurityGroupIds= ['YourSecurityGroups']    
   ``` 
-4. Create a key pair and store the secret key file somewhere safe on your local system, and change the key name path within the `cloudCompute.py` script to your own private key name path:    
+4. Create a key pair and store the secret key file somewhere safe on your local system, and change the key name when creating instances and key name path when creating SSH client within the `cloudCompute.py` script to your own private key name path:    
   ```shell    
   key = paramiko.RSAKey.from_private_key_file('PATH/YourKey.pem')    
   ``` 
